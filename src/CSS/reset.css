@@ -1,0 +1,14 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.ajuste-de-tela {
+    height: 100%;
+    width: 100%;
+}
+

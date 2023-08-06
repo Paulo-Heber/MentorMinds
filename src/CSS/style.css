@@ -1,0 +1,60 @@
+.centralizacao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    background-color: var(--cor-de-fundo);
+    font-family: 'Manrope', 'Courier New';
+    flex-direction: column;
+
+    .cartao {
+        background-color: var(--cor-cartao);
+        color: var(--cor-do-texto);
+        flex-direction: column;
+        align-items: center;
+        border-radius: 1rem;
+        max-height: 15rem;
+        max-width: 23rem;
+        display: flex;
+    }
+
+    .titulo {
+        text-transform: uppercase;
+        color: var(--cor-dado);
+        margin-top: 3.21875rem;
+        letter-spacing: 0.3rem;
+        font-size: 0.75rem;
+    }
+
+    .conselho {
+        margin-top: 1.84375rem;
+        text-align: center;
+    }
+
+    .cartao .divisor {
+        margin-top: 2.043937rem;
+        width: 100%;
+        height: 10.594px;
+    }
+
+    .dado {
+        background-color: var(--cor-dado);
+        margin-top: 1.6689375rem;
+        border-radius: 100%;
+        height: 3.5rem;
+        width: 3.5rem;
+        border: 0px;
+    }
+    .dado :hover{
+        cursor: pointer;
+    }
+
+    .alinhamento {
+        flex: 1 0 auto;
+    }
+  
+       
+    
+}

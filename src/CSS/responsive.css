@@ -1,0 +1,6 @@
+@media(max-width:425px) {
+    .cartao {
+        width: 90%;
+        padding: 0px 5px;
+    }
+}
