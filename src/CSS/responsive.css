@@ -1,6 +1,10 @@
-@media(max-width:425px) {
-    .cartao {
-        width: 90%;
-        padding: 0px 5px;
+@media(max-width:500px) {
+    main .cartao {
+        min-width: 30rem;
+        padding: 0 0.8rem;
+        max-width: 17rem;
+    }
+    .cartao .conselho {
+        font-size: 2rem;
     }
 }
